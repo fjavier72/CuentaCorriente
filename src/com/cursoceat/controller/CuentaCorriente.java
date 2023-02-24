@@ -27,12 +27,13 @@ public class CuentaCorriente {
 		this.dni = dni;
 		this.saldo = saldo;
 	}
+	
+	// setters and getters
 	// Asignamos un nuevo objeto gestor a la Cta
 	void setGestor(Gestor miGestor) {
 		this.miGestor = miGestor;
 	}
 
-	// setters and getters
 	public static String getNombreBanco() {
 		return nombreBanco;
 	}

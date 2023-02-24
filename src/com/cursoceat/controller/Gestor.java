@@ -20,10 +20,12 @@ public class Gestor {
 		this.importeMax = 10000;
 	}
 
+	// Getter
 	public String getTelefono() {
 		return telefono;
 	}
 	
+	// Métodos
 	void mostrarInfoGestor() {
 		System.out.println("Nombre: " + this.nombreGestor + "\nTeléfono: " + this.telefono +
 				"\nImporte máximo: " + this.importeMax + " €");
